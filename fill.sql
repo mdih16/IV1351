@@ -20,7 +20,7 @@ VALUES
   ('198212071234', 'Emma', 'Berggren', 'emma.berggren@example.com', '0723344556', 'Åsgatan 45', '45454', 'Växjö'),
   ('198512152345', 'Gustav', 'Berggren', 'gustav.berggren@example.com', '0735566778', 'Strandvägen 67', '67676', 'Jönköping'),
   -- Siblings with the same surname 'Sundqvist'
-  ('200504201234', 'Sara', 'Sundqvist', 'sara.sundqvist@example.com', '0709988776', 'Götgatan 89', '89898', 'Karlstad'),
+  ('200504201235', 'Sara', 'Sundqvist', 'sara.sundqvist@example.com', '0709988776', 'Götgatan 89', '89898', 'Karlstad'),
   ('200612071234', 'Oliver', 'Sundqvist', 'oliver.sundqvist@example.com', '0722334455', 'Karlsgatan 56', '56565', 'Helsingborg'),
   -- Siblings with the same surname 'Björklund'
   ('200802152345', 'Elin', 'Björklund', 'elin.bjorklund@example.com', '0733344556', 'Hästgatan 34', '34343', 'Umeå'),
