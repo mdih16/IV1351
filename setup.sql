@@ -21,7 +21,7 @@ CREATE TABLE contact_person (
 CREATE TABLE student (
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     person_id INT REFERENCES person(id) NOT NULL,
-    contact_person_id INT REFERENCES contact_person(id) NOT NULL
+    contact_person_id INT REFERENCES contact_person(id)
 );
 
 -- Sibling Table
@@ -50,7 +50,8 @@ CREATE TABLE time_slot (
 CREATE TABLE instrument_info (
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     type VARCHAR(100) NOT NULL,
-    brand VARCHAR(100)
+    brand VARCHAR(100) NOT NULL
+    rental_fee DECIMAL(10, 2) NOT NULL
 );
 
 -- Instrument Table
@@ -62,10 +63,10 @@ CREATE TABLE instrument (
 -- Instrument Rental Table
 CREATE TABLE instrument_rental (
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    student_id INT REFERENCES student(id) NOT NULL,
     instrument_id INT REFERENCES instrument(id) NOT NULL,
     rental_start_date DATE NOT NULL,
     rental_end_date DATE NOT NULL,
-    rental_fee DECIMAL(10, 2) NOT NULL
 );
 
 -- Pricing Scheme Table
