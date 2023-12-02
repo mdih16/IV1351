@@ -66,7 +66,7 @@ CREATE TABLE instrument_rental (
     student_id INT REFERENCES student(id) NOT NULL,
     instrument_id INT REFERENCES instrument(id) NOT NULL,
     rental_start_date DATE NOT NULL,
-    rental_end_date DATE NOT NULL,
+    rental_end_date DATE NOT NULL
 );
 
 -- Pricing Scheme Table
