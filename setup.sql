@@ -50,7 +50,7 @@ CREATE TABLE time_slot (
 CREATE TABLE instrument_info (
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     type VARCHAR(100) NOT NULL,
-    brand VARCHAR(100) NOT NULL
+    brand VARCHAR(100) NOT NULL,
     rental_fee DECIMAL(10, 2) NOT NULL
 );
 
