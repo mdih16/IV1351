@@ -7,18 +7,18 @@ VALUES
   ('200112071234', 'Olivia', 'Olofsson', 'olivia.olofsson@example.com', '0701122334', 'Lindgatan 56', '56789', 'Uppsala'),
   ('200310152345', 'Lucas', 'Lundgren', 'lucas.lundgren@example.com', '0723344556', 'Ekbacken 78', '34567', 'Linköping'),
   ('200504201234', 'Sara', 'Svensson', 'sara.svensson@example.com', '0709988776', 'Götgatan 89', '89898', 'Karlstad'),
-  ('200612071234', 'Oscar', 'Olsson', 'oscar.olsson@example.com', '0722334455', 'Karlsgatan 56', '56565', 'Helsingborg'),
-  ('201004201234', 'Filip', 'Fredriksson', 'filip.fredriksson@example.com', '0701122334', 'Bergsgatan 45', '45454', 'Gävle'),
+  ('200612071235', 'Oscar', 'Olsson', 'oscar.olsson@example.com', '0722334455', 'Karlsgatan 56', '56565', 'Helsingborg'),
+  ('201004201235', 'Filip', 'Fredriksson', 'filip.fredriksson@example.com', '0701122334', 'Bergsgatan 45', '45454', 'Gävle'),
   ('201212071234', 'Isabella', 'Isaksson', 'isabella.isaksson@example.com', '0723344556', 'Skogsgatan 67', '67676', 'Kalmar'),
    -- Siblings with the same surname 'Jansson'
-  ('199112011234', 'Nina', 'Jansson', 'nina.jansson@example.com', '0701234567', 'Storgatan 123', '12345', 'Stockholm'),
-  ('199504152345', 'Alexander', 'Jansson', 'alexander.jansson@example.com', '0739876543', 'Lillgatan 456', '45678', 'Gothenburg'),
+  ('199112011235', 'Nina', 'Jansson', 'nina.jansson@example.com', '0701234567', 'Storgatan 123', '12345', 'Stockholm'),
+  ('199504152346', 'Alexander', 'Jansson', 'alexander.jansson@example.com', '0739876543', 'Lillgatan 456', '45678', 'Gothenburg'),
   -- Siblings with the same surname 'Lindqvist'
-  ('199808201234', 'Emilie', 'Lindqvist', 'emilie.lindqvist@example.com', '0765554321', 'Vägen 789', '78901', 'Malmo'),
-  ('200012071234', 'Elias', 'Lindqvist', 'elias.lindqvist@example.com', '0701122334', 'Lindgatan 56', '56789', 'Uppsala'),
+  ('199808201235', 'Emilie', 'Lindqvist', 'emilie.lindqvist@example.com', '0765554321', 'Vägen 789', '78901', 'Malmo'),
+  ('200012071235', 'Elias', 'Lindqvist', 'elias.lindqvist@example.com', '0701122334', 'Lindgatan 56', '56789', 'Uppsala'),
   -- Siblings with the same surname 'Berggren'
-  ('198212071234', 'Emma', 'Berggren', 'emma.berggren@example.com', '0723344556', 'Åsgatan 45', '45454', 'Växjö'),
-  ('198512152345', 'Gustav', 'Berggren', 'gustav.berggren@example.com', '0735566778', 'Strandvägen 67', '67676', 'Jönköping'),
+  ('198212071235', 'Emma', 'Berggren', 'emma.berggren@example.com', '0723344556', 'Åsgatan 45', '45454', 'Växjö'),
+  ('198512152346', 'Gustav', 'Berggren', 'gustav.berggren@example.com', '0735566778', 'Strandvägen 67', '67676', 'Jönköping'),
   -- Siblings with the same surname 'Sundqvist'
   ('200504201235', 'Sara', 'Sundqvist', 'sara.sundqvist@example.com', '0709988776', 'Götgatan 89', '89898', 'Karlstad'),
   ('200612071234', 'Oliver', 'Sundqvist', 'oliver.sundqvist@example.com', '0722334455', 'Karlsgatan 56', '56565', 'Helsingborg'),
@@ -28,14 +28,14 @@ VALUES
    -- Siblings with the last name 'Andersson'
   ('199112011234', 'Amanda', 'Andersson', 'amanda.andersson@example.com', '0701234567', 'Storgatan 123', '12345', 'Stockholm'),
   ('199504152345', 'Alexander', 'Andersson', 'alexander.andersson@example.com', '0739876543', 'Lillgatan 456', '45678', 'Gothenburg'),
-  ('199808201234', 'Alma', 'Andersson', 'alma.andersson@example.com', '0761122334', 'Skogsvägen 789', '78901', 'Malmo'),
+  ('199808201236', 'Alma', 'Andersson', 'alma.andersson@example.com', '0761122334', 'Skogsvägen 789', '78901', 'Malmo'),
   -- Siblings with the last name 'Eriksson'
   ('199808201234', 'Emilie', 'Eriksson', 'emilie.eriksson@example.com', '0765554321', 'Vägen 789', '78901', 'Malmo'),
   ('200012071234', 'Elias', 'Eriksson', 'elias.eriksson@example.com', '0701122334', 'Lindgatan 56', '56789', 'Uppsala'),
   ('200404152345', 'Elin', 'Eriksson', 'elin.eriksson@example.com', '0723344556', 'Björkgatan 789', '78978', 'Lund'),
   -- Siblings with the last name 'Karlsson'
   ('197512152345', 'Klara', 'Karlsson', 'klara.karlsson@example.com', '0709876543', 'Skolgatan 987', '98765', 'Västerås'),
-  ('197804201234', 'Karl', 'Karlsson', 'karl.karlsson@example.com', '0765556789', 'Björkgatan 12', '12123', 'Örebro'),
+  ('197804201235', 'Karl', 'Karlsson', 'karl.karlsson@example.com', '0765556789', 'Björkgatan 12', '12123', 'Örebro'),
   ('198104152345', 'Karolina', 'Karlsson', 'karolina.karlsson@example.com', '0735566778', 'Strandvägen 34', '34343', 'Norrköping'),
   -- Teachers
   ('197502152345', 'Anders', 'Andersson', 'anders.andersson@example.com', '0709876543', 'Skolgatan 987', '98765', 'Västerås'),
