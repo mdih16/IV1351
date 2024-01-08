@@ -42,8 +42,8 @@ CREATE TABLE instructor (
 CREATE TABLE time_slot (
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     instructor_id INT REFERENCES instructor(id) NOT NULL,
-    start_time TIME NOT NULL,
-    end_time TIME NOT NULL
+    start_time TIMESTAMP NOT NULL,
+    end_time TIMESTAMP NOT NULL
 );
 
 -- Instrument Info Table

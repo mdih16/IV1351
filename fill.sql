@@ -113,10 +113,10 @@ VALUES
 -- Insert fake data into instructor table
 INSERT INTO instructor (person_id, ensemble_instructor)
 VALUES
-    (28, false),
-    (29, false),
+    (28, true),
+    (29, true),
     (30, true),
-    (31, false),
+    (31, true),
     (32, true);
 
 -- Insert fake data into time_slot table
@@ -141,7 +141,30 @@ VALUES
   (3, '2023-12-25 14:30:00', '2023-12-25 15:30:00'),
   (3, '2023-09-05 16:00:00', '2023-09-05 17:00:00'),
   (3, '2023-09-20 18:30:00', '2023-09-20 19:30:00'),
-  (3, '2023-10-05 20:00:00', '2023-10-05 21:00:00');
+  (3, '2023-10-05 20:00:00', '2023-10-05 21:00:00'),
+  (1, '2024-01-14 09:00:00', '2024-01-14 10:00:00'),
+  (1, '2024-01-21 10:30:00', '2024-01-21 11:30:00'),
+  (1, '2024-01-28 12:00:00', '2024-01-28 13:00:00'),
+  (1, '2024-01-16 14:00:00', '2024-01-16 15:00:00'),
+  (2, '2024-01-15 16:30:00', '2024-01-15 17:30:00'),
+  (2, '2024-01-22 18:00:00', '2024-01-22 19:00:00'),
+  (2, '2024-01-29 09:30:00', '2024-01-29 10:30:00'),
+  (2, '2024-01-17 11:00:00', '2024-01-17 12:00:00'),
+  (3, '2024-01-17 13:30:00', '2024-01-17 14:30:00'),
+  (3, '2024-01-23 15:00:00', '2024-01-23 16:00:00'),
+  (3, '2024-01-30 17:00:00', '2024-01-30 18:00:00'),
+  (3, '2024-01-09 18:30:00', '2024-01-09 19:30:00'),
+  (3, '2024-01-14 20:00:00', '2024-01-14 21:00:00'),
+  (3, '2024-01-19 21:30:00', '2024-01-19 22:30:00'),
+  (4, '2024-01-12 09:00:00', '2024-01-12 10:00:00'),
+  (4, '2024-01-19 10:30:00', '2024-01-19 11:30:00'),
+  (4, '2024-01-26 12:00:00', '2024-01-26 13:00:00'),
+  (4, '2024-01-23 14:30:00', '2024-01-23 15:30:00'),
+  (5, '2024-01-11 16:00:00', '2024-01-11 17:00:00'),
+  (5, '2024-01-18 17:30:00', '2024-01-18 18:30:00'),
+  (5, '2024-01-25 19:00:00', '2024-01-25 20:00:00'),
+  (5, '2024-01-31 20:30:00', '2024-01-31 21:30:00'),
+  (5, '2024-01-25 22:00:00', '2024-01-25 23:00:00');
 
 -- Insert fake data into instrument_info table
 INSERT INTO instrument_info (type, brand, rental_fee)
@@ -210,7 +233,30 @@ VALUES
     (3, 'Intermediate', 'Group', 1, 7, 'Bass Guitar', 4, 8, NULL),
     (3, 'Advanced', 'Individual', 1, 8, 'Bass Guitar', NULL, NULL, NULL),
     (3, 'Beginner', 'Ensemble', 1, 9, NULL, 5, 12, 'Jazz'),
-    (3, 'Intermediate', 'Group', 1, 10, 'Violin', 4, 10, NULL);
+    (3, 'Intermediate', 'Group', 1, 10, 'Violin', 4, 10, NULL),
+    (1, 'Intermediate', 'Group', 1, 21, 'Guitar', 4, 10, NULL),
+    (1, 'Intermediate', 'Ensemble', 1, 22, NULL, 2, 5, 'Classical'),
+    (1, 'Intermediate', 'Ensemble', 1, 23, NULL, 2, 5, 'Rock'),
+    (1, 'Intermediate', 'Ensemble', 1, 24, NULL, 2, 5, 'Punk'),
+    (2, 'Intermediate', 'Ensemble', 1, 25, NULL, 2, 4, 'Jazz'),
+    (2, 'Intermediate', 'Ensemble', 1, 26, NULL, 2, 3, 'Classical'),
+    (2, 'Intermediate', 'Ensemble', 1, 27, NULL, 2, 4, 'Rock'),
+    (2, 'Intermediate', 'Ensemble', 1, 28, NULL, 2, 3, 'Punk'),
+    (3, 'Intermediate', 'Ensemble', 1, 29, NULL, 2, 4, 'Jazz'),
+    (3, 'Intermediate', 'Ensemble', 1, 30, NULL, 2, 4, 'Classical'),
+    (3, 'Intermediate', 'Ensemble', 1, 31, NULL, 2, 4, 'Rock'),
+    (3, 'Intermediate', 'Ensemble', 1, 32, NULL, 2, 4, 'Punk'),
+    (3, 'Intermediate', 'Ensemble', 1, 33, NULL, 2, 4, 'Jazz'),
+    (3, 'Intermediate', 'Ensemble', 1, 34, NULL, 2, 4, 'Classical'),
+    (4, 'Intermediate', 'Ensemble', 1, 35, NULL, 2, 4, 'Rock'),
+    (4, 'Intermediate', 'Ensemble', 1, 36, NULL, 2, 5, 'Punk'),
+    (4, 'Intermediate', 'Ensemble', 1, 37, NULL, 2, 5, 'Jazz'),
+    (4, 'Intermediate', 'Ensemble', 1, 38, NULL, 2, 5, 'Classical'),
+    (5, 'Intermediate', 'Ensemble', 1, 39, NULL, 2, 5, 'Rock'),
+    (5, 'Intermediate', 'Ensemble', 1, 40, NULL, 2, 4, 'Punk'),
+    (5, 'Intermediate', 'Ensemble', 1, 41, NULL, 2, 5, 'Jazz'),
+    (5, 'Intermediate', 'Ensemble', 1, 42, NULL, 2, 4, 'Classical'),
+    (5, 'Intermediate', 'Ensemble', 1, 43, NULL, 2, 5, 'Rock');
 
 -- Insert fake data into student_lesson table
 INSERT INTO student_lesson (student_id, lesson_id)
@@ -247,13 +293,37 @@ VALUES
     (3, 10),
     (4, 10),
     (5, 10),
-    (6, 10);
+    (6, 10),
+    (1, 19),
+    (2, 19),
+    (3, 19),
+    (4, 19),
+    (1, 20),
+    (2, 20),
+    (3, 20),
+    (4, 20),
+    (1, 21),
+    (2, 21),
+    (3, 21),
+    (4, 21),
+    (1, 22),
+    (2, 22),
+    (3, 22),
+    (4, 22),
+    (1, 23),
+    (2, 23),
+    (3, 23),
+    (4, 23),
+    (1, 24),
+    (2, 24),
+    (3, 24),
+    (4, 24);
 
 -- Insert fake data into instrument_taught table
 INSERT INTO instrument_taught (instructor_id, instrument_info_id)
 VALUES
     (1, 1),
-    (2, 4)
+    (2, 4),
     (3, 1),
     (3, 4),
     (3, 6),
